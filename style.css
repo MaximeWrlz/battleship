@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25vh;
+    text-align: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background: rgb(37,20,60);
+    background: linear-gradient(180deg, rgba(37,20,60,1) 0%, rgba(126,41,194,1) 100%);
+
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: 75vw;
+    max-width: 750px;
+    height: auto;
+}
+
+a {
+    font-size: 20px;
+    padding: 18px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3A1D62;
+    background-color: #eee;
+    border-radius: 10px;
+    border: 2px solid #a9a9a9;
+}
